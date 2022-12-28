@@ -1,0 +1,157 @@
+@media(max-width:575px){
+    .call_image{
+        display: none;
+    }
+    header::before{
+        background-size: 400px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #0961b1;
+    }
+    .num{
+        color: #0961b1;
+        border-color: #0961b1;
+        margin-left: 0px;
+    }
+    .navbar-nav{
+        margin: 20px;
+    }
+    .callz img{
+        margin-left: 25px;
+    }
+    .get_info{
+        width: 100%;
+    }
+    .process_serial{
+        left: 52%;
+    } 
+    .process_content{
+        margin-bottom: 50px;
+    }
+    footer .bottom_content {
+        width: 100%; 
+    }
+    .f_item{
+        color: #414141;
+    }
+    .serve{
+        padding: 0px;
+    }
+}
+
+@media(max-width:320px){
+    header::before{
+        background-size: 200px;
+    }
+    .navbar-light .navbar-brand {
+        width: 50%;
+    }
+    .header_text h1 span {
+        font-size: 40px;
+    }
+    .header_text h1 {
+        font-size: 40px;
+    }
+    .header_text p {
+        font-size: 16px;
+    }
+    .btn-free {
+        font-size: 13px;;
+    }
+    .header_text {
+        flex-wrap: inherit;
+    }
+    .callz img {
+        width: 80%;
+    }
+    .live_calls h1 {
+        font-size: 40px;
+    }
+    .live_calls h1 span {
+        font-size: 40px;
+    }
+    .live_calls p {
+        font-size: 13px;
+    }
+    .features {
+        padding: 35px 35px;
+    }
+    .features p {
+        line-height: 20px;
+    }
+    .features_heading h2 {
+        font-size: 24px;
+    }
+    .get_bio h4 {
+        padding: 18px 0;
+        width: 100%;
+        font-size: 21px;
+    }
+    .get_icon i {
+        height: 20px;
+        width: 20px;
+        font-size: 11px;
+    }
+    .get_bio p {
+        letter-spacing: 1px;
+        width: 100%;
+        padding: 20px 0;
+        font-size: 14px;
+    }
+    .get_start h1 {
+        font-size: 35px;
+    }
+    .our-process h1 {
+        font-size: 35px;
+    }
+    .process_content {
+        padding: 25px;
+        height: 360px;
+    }
+    .process_info p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .process_serial {
+        left: 55%;
+        height: 65px;
+        width: 65px;
+    }
+    .process_number h1 {
+        font-size: 25px;
+    }
+    .process_number {
+        height: 40px;
+        width: 40px;
+    }
+    .we_serve h1 {
+        font-size: 35px;
+    }  
+    .serve_info {
+    padding: 20px;
+    height: 310px;
+    }
+    .serve_info img {
+        width: 50px;
+    }
+    .serve_info h3 {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    .serve_info p {
+        margin: 5px 0;
+        font-size: 11px;
+    }
+    .question h1 {
+        font-size: 35px;
+    }
+    .bottom_content h1 span {
+        font-size: 40px;
+    }
+    .bottom_content h1 {
+        font-size: 40px;
+    }
+    .bottom_content p {
+        font-size: 16px;
+    }
+}
